@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import StudentForm from "StudentApp1/StudentForm"
 
 import "./index.css";
 
 const App = () => (
-  <div className="container">
-    <div>Name: StudentApp3</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Empty CSS</div>
+  <div>
+    <h1>This is Student App 3</h1>
+    <StudentForm></StudentForm>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
